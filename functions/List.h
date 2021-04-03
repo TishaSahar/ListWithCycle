@@ -37,5 +37,7 @@ public:
 	void addV(int _v);
 	void addN(Node *_n);
 
+	bool isCircle();
+
 	void Print();
 };

@@ -38,10 +38,10 @@ void List::Print() {
 		cout << "List is empty" << endl;
 		return;
 	}
-
+	int i = count;
 	Node* node = this->first;
 	cout << "List { ";
-	while (node != NULL) {
+	while ((node != NULL)&&(i > 0)) {
 		if (node->next == NULL) {
 			cout << node->value << " }\n";
 			system("pause");
@@ -49,6 +49,25 @@ void List::Print() {
 		}
 		cout << node->value << ", ";
 		node = node->next;
+		i--;
 	}
 	return;
+}
+
+bool List::isCircle() {
+	if (this->count == 0)
+	{
+		throw logic_error("List is empty");
+	}
+	Node* node1 = this->first;
+	Node* node2 = this->first->next;
+	while (node1 != NULL) {
+		if (node2->next->next == NULL) {
+			return false;
+		}
+		node1 = node1->next;
+		node2 = node1->next->next;
+	}
+
+
 }
