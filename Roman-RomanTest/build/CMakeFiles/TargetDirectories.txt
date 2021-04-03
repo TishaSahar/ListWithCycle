@@ -1,6 +1,0 @@
-C:/Users/saharov.t/Downloads/Roman-RomanTest/Roman-RomanTest/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/saharov.t/Downloads/Roman-RomanTest/Roman-RomanTest/build/CMakeFiles/ZERO_CHECK.dir
-C:/Users/saharov.t/Downloads/Roman-RomanTest/Roman-RomanTest/build/functions/CMakeFiles/mylibrary.dir
-C:/Users/saharov.t/Downloads/Roman-RomanTest/Roman-RomanTest/build/main/CMakeFiles/main.dir
-C:/Users/saharov.t/Downloads/Roman-RomanTest/Roman-RomanTest/build/gtest/CMakeFiles/gtest.dir
-C:/Users/saharov.t/Downloads/Roman-RomanTest/Roman-RomanTest/build/test/CMakeFiles/test_main.dir
