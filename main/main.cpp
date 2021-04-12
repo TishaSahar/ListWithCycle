@@ -9,8 +9,8 @@ int main()
     Node* n2 = new Node(2);
     Node* n3 = new Node(3);
 
-    List L; L.addN(n1); L.addN(n2); L.addN(n3); L.addN(n1);
-    L.Print();
+    List L; L.addN(n1); L.addN(n2);L.addN(n3); L.addN(n2);
+	cout << L.isCircle() << endl; system("pause");
 
     return 0;
 }

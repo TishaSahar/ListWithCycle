@@ -62,12 +62,10 @@ bool List::isCircle() {
 	Node* node1 = this->first;
 	Node* node2 = this->first->next;
 	while (node1 != NULL) {
-		if (node2->next->next == NULL) {
-			return false;
-		}
+		if ((node1->next == NULL)||(node2->next == NULL)) return false;
+		if (node2->next->next == NULL) return false;
+		if (node1 == node2) return true;
 		node1 = node1->next;
-		node2 = node1->next->next;
+		node2 = node2->next->next;
 	}
-
-
 }
